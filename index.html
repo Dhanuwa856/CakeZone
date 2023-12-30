@@ -11,18 +11,831 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <!-- Link To tailwind css -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Link To Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <!-- Link To JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Link To carousel -->
+  <script src="
+  https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js
+  "></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+
+
   <title>CakeZone</title>
 </head>
 
 <body>
+  <!-- Header Contact -->
+  <div class="header-contact flex items-center justify-between px-40 container-fuild">
+    <div class="header-left mt-5">
+      <div class="flex items-center gap-5">
+        <span class="text-4xl"><i class="fa-regular fa-envelope"></i></span>
+        <div>
+          <h5 class="text-black font-medium">EMAIL US</h5>
+          <p class="text-base font-normal">info@example.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="header-center">
+      <div class="logo-bg  flex items-center justify-center py-2 px-4">
+        <div class="logo">
+          <a href="#" class="flex gap-5 items-center"><i class="fa-solid fa-cake-candles text-5xl"></i><span
+              class="text-white font-bold text-4xl">CAKEZONE</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="header-right mt-5">
+      <div class="flex items-center gap-5">
+        <span class="text-4xl"><i class="fa-solid fa-headset"></i></span>
+        <div>
+          <h5 class="text-black font-medium">CALL US</h5>
+          <p class="text-base font-normal">+012 345 6789
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Nav Bar -->
+  <nav class="container-fuild z-[100]">
+    <ul class="flex justify-center gap-10 items-center py-6">
+      <li><a href="#" class="active">HOME</a></li>
+      <li><a href="#">ABOUT US</a></li>
+      <li><a href="#">MENU & PRICING</a></li>
+      <li><a href="#">MASTER CHEFS</a></li>
+      <li class="relative"><a href="#" class="flex gap-1 page-btn">PAGES <i class="fa-solid fa-sort-down"></i></a>
+        <div class="hidden-nav shadow-lg pl-3 py-2 hidden z-50">
+          <ul>
+            <li><a href="#">Our Service</a></li>
+            <li><a href="#">Testimonial</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="#">CONTACT US</a></li>
+    </ul>
+  </nav>
+  <!-- Hero -->
+  <div class="hero container-fuild">
+    <div class="container-auto pt-20 hero-content">
+      <h3 class="text-[40px] font-semibold">Super Crispy</h3>
+      <h1 class="mt-0 text-[80px] font-extrabold">CAKEZONE</h1>
+      <h5 class="mt-0 font-bold text-[40px]">THE BEST CAKE IN SRILANKA</h5>
+      <div class="mt-16 flex gap-5 items-center">
+        <button class="font-medium text-lg py-4 px-2"><span class="py-2 px-10">Read More</span></button>
+        <div class="flex gap-5 items-center">
+          <a href="#">
+            <div class="play-icon flex items-center justify-center text-[20px]">
+              <a href="#"><i class="fa-solid fa-play"></i></a>
+            </div>
+          </a>
+          <span class="play-text text-xl font-medium">Play Video</span>
 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About Us -->
+  <div class="container-fuild mt-28">
+    <div class="container-auto">
+      <h2 class="mini-title">About Us</h2>
+      <h4 class="title-bio">WELCOME TO CAKEZONE <span></span></h4>
+      <div class="mt-10 flex">
+        <div class="about-left w-1/2">
+          <img src="images/about.jpg" alt="" class="w-[90%]">
+        </div>
+        <div class="about-right w-1/2">
+          <h5 class="w-[85%] text-[22px] font-medium">Tempor erat elitr rebum clita. Diam dolor diam ipsum erat lorem
+            sed
+            stet labore
+            lorem sit
+            clita duo</h5>
+          <p class="mt-8 w-full text-[17px] font-normal">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum
+            et tempor
+            sit.
+            Clita
+            erat ipsum
+            et lorem et
+            sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet magna</p>
+          <div class="flex mt-10 gap-10">
+            <div>
+              <span><i class="fa-solid fa-heart-pulse"></i></span>
+              <h4>100% HEALTHY</h4>
+              <p>Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-award"></i></span>
+              <h4>AWARD WINNING</h4>
+              <p>Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Numbers -->
+  <div class="numbers container-fuild">
+    <div class="container-auto flex items-center justify-between h-[40vh]">
+      <div class="flex items-center gap-5">
+        <span><i class="fa-solid fa-star"></i></span>
+        <div class="">
+          <h4>OUR EXPERIENCE</h4>
+          <h2>12345</h2>
+        </div>
+      </div>
+      <div class="flex items-center gap-5">
+        <span><i class="fa-solid fa-users"></i></span>
+        <div>
+          <h4>CAKE SPECIALIST</h4>
+          <h2>12345</h2>
+        </div>
+      </div>
+      <div class="flex items-center gap-5">
+        <span><i class="fa-solid fa-check"></i></span>
+        <div>
+          <h4>COMPLETE PROJECT</h4>
+          <h2>12345</h2>
+        </div>
+      </div>
+      <div class="flex items-center gap-5">
+        <span><i class="fa-solid fa-mug-hot"></i></span>
+        <div>
+          <h4>HAPPY CLIENTS</h4>
+          <h2>12345</h2>
+        </div>
+      </div>
+    </div>
 
+  </div>
+  <!-- Menu & Pricing -->
+  <div class="menu container-fuild mt-20">
+    <div class="container-auto ">
+      <h2 class="mini-title">Menu & Pricing</h2>
+      <h4 class="title-bio">EXPLORE OUR CAKES <span></span></h4>
+      <div class="menu-btns mt-10 py-3 px-4 max-w-fit mx-auto">
+        <ul class="flex justify-center gap-10 py-5 px-16">
+          <li class="filter-item" data-filter="brithday">BIRTHDAY</li>
+          <li class="filter-item" data-filter="wedding">
+            WEDDING
+          </li>
+          <li class="filter-item" data-filter="custom">
+            CUSTOM
+          </li>
+        </ul>
+      </div>
+      <section class="menu mt-20">
+        <!-- Menu 01 -->
+        <div class="flex gap-5">
+          <div>
+            <div class="menu-box brithday flex items-center w-full">
+              <div>
+                <img src="images/cake-1.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">BIRTHDAY CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box brithday flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-1.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">BIRTHDAY CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box brithday flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-1.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">BIRTHDAY CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="menu-box brithday flex items-center w-full">
+              <div>
+                <img src="images/cake-1.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">BIRTHDAY CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box brithday flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-1.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">BIRTHDAY CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box brithday flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-1.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">BIRTHDAY CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Menu 02 -->
+        <div class="flex gap-5 hidden">
+          <div>
+            <div class="menu-box wedding flex items-center w-full">
+              <div>
+                <img src="images/cake-2.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">WEDDING CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box wedding flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-2.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">WEDDING CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box wedding flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-2.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">WEDDING CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="menu-box wedding flex items-center w-full">
+              <div>
+                <img src="images/cake-2.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">WEDDING CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box wedding flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-2.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">WEDDING CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box wedding flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-2.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">WEDDING CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Menu 03 -->
+        <div class="flex gap-5 hidden">
+          <div>
+            <div class="menu-box custom flex items-center w-full">
+              <div>
+                <img src="images/cake-3.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">CUSTOM CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box custom flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-3.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">CUSTOM CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box custom flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-3.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">CUSTOM CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="menu-box custom flex items-center w-full">
+              <div>
+                <img src="images/cake-3.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">CUSTOM CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box custom flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-3.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">CUSTOM CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu-box custom flex items-center w-full mt-5">
+              <div>
+                <img src="images/cake-3.jpg" alt="" class="w-[120px] h-[100px]">
+                <div class="price-tag w-[120px] h-[40px] flex items-center justify-center text-[23px] font-medium">
+                  $99.00
+                </div>
+              </div>
+              <div class="menu-text w-[90%]">
+                <div class="menu-text-border">
+                  <h5 class="text-xl font-semibold">CUSTOM CAKE</h5>
+                  <p class="w-[95%] mt-2 text-lg">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+                    justo
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <!-- DISCOUNT -->
+  <div class="discount container-fuild mt-40">
+    <div class="discount-filter relative">
+      <div class="container-auto discount-boxes flex gap-4 absolute">
+        <div class="discount-box w-1/3 text-center py-3 px-2">
+          <div class="discount-box-border py-10 px-5">
+            <h3 class="text-2xl font-semibold">BIRTHDAY CAKE</h3>
+            <p class="mt-2 text-lg w-[85%] mx-auto">Ipsum ipsum clita erat amet dolor sit justo sea eirmod
+              diam stet
+              sit
+              justo
+              amet
+              tempor amet
+              kasd lorem
+              dolor ipsum</p>
+            <button class="mt-2 font-extralight">READ MORE <i class="fa-solid fa-arrow-right-long"></i></button>
+          </div>
+        </div>
+        <div class="discount-box w-1/3 text-center py-3 px-2">
+          <div class="discount-box-border py-10 px-5">
+            <h3 class="text-2xl font-semibold">WEDDING CAKE</h3>
+            <p class="mt-2 text-lg w-[85%] mx-auto">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+              justo
+              amet
+              tempor amet
+              kasd lorem
+              dolor ipsum</p>
+            <button class="mt-2 font-extralight">READ MORE <i class="fa-solid fa-arrow-right-long"></i></button>
+          </div>
+        </div>
+        <div class="discount-box w-1/3 text-center py-3 px-2">
+          <div class="discount-box-border py-10 px-5">
+            <h3 class="text-2xl font-semibold">CUSTOM CAKE
+            </h3>
+            <p class="mt-2 text-lg w-[85%] mx-auto">Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit
+              justo
+              amet
+              tempor amet
+              kasd lorem
+              dolor ipsum</p>
+            <button class="mt-2 font-extralight">READ MORE <i class="fa-solid fa-arrow-right-long"></i></button>
+          </div>
+        </div>
+      </div>
+      <h4 class="text-center pt-60 font-bold text-4xl">30% DISCOUNT FOR THIS SUMMER</h4>
+      <button class="font-medium text-lg py-4 px-2 mt-3 mx-auto block discount-btn"><span class="py-2 px-10">Read
+          More</span></button>
+    </div>
+  </div>
+  <!-- Team Members -->
+  <div class="members container-fuild mt-10">
+    <div class=" container-auto">
+      <h2 class="mini-title">Team Members</h2>
+      <h4 class="title-bio">OUR MASTER CHEFS <span></span>
+      </h4>
+      <div class="team-boxes mt- flex gap-10 mt-20">
+        <div class="team-box w-1/3">
+          <div class="texm-box-img relative">
+            <figure> <img src="images/team-1.jpg" alt="" class="w-full"></figure>
+            <div class="social-icons absolute">
+              <span><i class="fa-brands fa-facebook-f"></i></span>
+              <span><i class="fa-brands fa-twitter"></i></span>
+              <span><i class="fa-brands fa-linkedin-in"></i></span>
+            </div>
+          </div>
+          <div class="team-box-text">
+            <div class="team-box-text-boder">
+              <h4 class="text-center text-2xl font-semibold">FULL NAME</h4>
+              <p class="text-center">Designation</p>
+            </div>
+          </div>
+        </div>
+        <div class="team-box w-1/3">
+          <div class="texm-box-img relative">
+            <figure> <img src="images/team-2.jpg" alt="" class="w-full"></figure>
+            <div class="social-icons absolute">
+              <span><i class="fa-brands fa-facebook-f"></i></span>
+              <span><i class="fa-brands fa-twitter"></i></span>
+              <span><i class="fa-brands fa-linkedin-in"></i></span>
+            </div>
+          </div>
+          <div class="team-box-text">
+            <div class="team-box-text-boder">
+              <h4 class="text-center text-2xl font-semibold">FULL NAME</h4>
+              <p class="text-center">Designation</p>
+            </div>
+          </div>
+        </div>
+        <div class="team-box w-1/3">
+          <div class="texm-box-img relative">
+            <figure> <img src="images/team-3.jpg" alt="" class="w-full"></figure>
+            <div class="social-icons absolute">
+              <span><i class="fa-brands fa-facebook-f"></i></span>
+              <span><i class="fa-brands fa-twitter"></i></span>
+              <span><i class="fa-brands fa-linkedin-in"></i></span>
+            </div>
+          </div>
+          <div class="team-box-text">
+            <div class="team-box-text-boder">
+              <h4 class="text-center text-2xl font-semibold">FULL NAME</h4>
+              <p class="text-center">Designation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Special Kombo Pack -->
+  <div class="special container-fuild mt-20">
+    <div class="special-filter">
+      <div class="container-auto">
+        <h2 class="mini-title pt-20">Special Kombo Pack</h2>
+        <h4 class="title-bio !text-white">SUPER CRISPY CAKES <span></span></h4>
+        <p class="text-center mt-10 w-[60%] mx-auto text-base">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor
+          ea
+          et
+          dolore et at
+          sea ea
+          at
+          dolor
+          justo ipsum duo
+          rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea
+          dolore sed et.</p>
+        <div class="special-btns text-center mt-5 gap-5 flex absolute">
+          <button class="sp-btn01"><span>Shop Now</span></button>
+          <button class="sp-btn02"><span>Read More</span></button>
+        </div>
+      </div>
 
+    </div>
+  </div>
+  <!-- Testimonial -->
+  <div class="testimonial container-fuild mt-20">
+    <div class="container-auto">
+      <h2 class="mini-title">Testimonial</h2>
+      <h4 class="title-bio">OUR CLIENTS SAY!!!<span></span></h4>
+      <div class="owl-carousel owl-theme mt-10">
+        <div class="item">
+          <div class="item-border">
+            <div class="flex gap-5 items-center p-5">
+              <img src="images/testimonial-1.jpg" alt="" class="!w-[70px]">
+              <div class="">
+                <h1 class="text-xl font-semibold">CLIENT NAME</h1>
+                <p>Profession</p>
+              </div>
+            </div>
+            <p class="w-full p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus
+              reiciendis
+              sed harum aperiam
+              illum tempora dolorum quisquam numquam</p>
+          </div>
+        </div>
+        <div class="item">
+          <span class="item-border">
+            <div class="flex gap-5 items-center p-5">
+              <img src="images/testimonial-4.jpg" alt="" class="!w-[70px]">
+              <div class="">
+                <h1 class="text-xl font-semibold">CLIENT NAME</h1>
+                <p>Profession</p>
+              </div>
+            </div>
+            <p class="w-full p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus
+              reiciendis
+              sed harum aperiam
+              illum tempora dolorum quisquam numquam</p>
+          </span>
+        </div>
+        <div class="item">
+          <span class="item-border">
+            <div class="flex gap-5 items-center p-5">
+              <img src="images/testimonial-2.jpg" alt="" class="!w-[70px]">
+              <div class="">
+                <h1 class="text-xl font-semibold">CLIENT NAME</h1>
+                <p>Profession</p>
+              </div>
+            </div>
+            <p class="w-full p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus
+              reiciendis
+              sed harum aperiam
+              illum tempora dolorum quisquam numquam</p>
+          </span>
+        </div>
+        <div class="item">
+          <span class="item-border">
+            <div class="flex gap-5 items-center p-5">
+              <img src="images/testimonial-3.jpg" alt="" class="!w-[70px]">
+              <div class="">
+                <h1 class="text-xl font-semibold">CLIENT NAME</h1>
+                <p>Profession</p>
+              </div>
+            </div>
+            <p class="w-full p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus
+              reiciendis
+              sed harum aperiam
+              illum tempora dolorum quisquam numquam</p>
+          </span>
+        </div>
+        <div class="item">
+          <span class="item-border">
+            <div class="flex gap-5 items-center p-5">
+              <img src="images/testimonial-4.jpg" alt="" class="!w-[70px]">
+              <div class="">
+                <h1 class="text-xl font-semibold">CLIENT NAME</h1>
+                <p>Profession</p>
+              </div>
+            </div>
+            <p class="w-full p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus
+              reiciendis
+              sed harum aperiam
+              illum tempora dolorum quisquam numquam</p>
+          </span>
+        </div>
+        <div class="item">
+          <span class="item-border">
+            <div class="flex gap-5 items-center p-5">
+              <img src="images/testimonial-1.jpg" alt="" class="!w-[70px]">
+              <div class="">
+                <h1 class="text-xl font-semibold">CLIENT NAME</h1>
+                <p>Profession</p>
+              </div>
+            </div>
+            <p class="w-full p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus
+              reiciendis
+              sed harum aperiam
+              illum tempora dolorum quisquam numquam</p>
+          </span>
+        </div>
+        <div class="item">
+          <span class="item-border">
+            <div class="flex gap-5 items-center p-5">
+              <img src="images/testimonial-2.jpg" alt="" class="!w-[70px]">
+              <div class="">
+                <h1 class="text-xl font-semibold">CLIENT NAME</h1>
+                <p>Profession</p>
+              </div>
+            </div>
+            <p class="w-full p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus
+              reiciendis
+              sed harum aperiam
+              illum tempora dolorum quisquam numquam</p>
+          </span>
+        </div>
+        <div class="item">
+          <span class="item-border">
+            <div class="flex gap-5 items-center p-5">
+              <img src="images/testimonial-3.jpg" alt="" class="!w-[70px]">
+              <div class="">
+                <h1 class="text-xl font-semibold">CLIENT NAME</h1>
+                <p>Profession</p>
+              </div>
+            </div>
+            <p class="w-full p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus
+              reiciendis
+              sed harum aperiam
+              illum tempora dolorum quisquam numquam</p>
+          </span>
+        </div>
+        <div class="item">
+          <span class="item-border">
+            <div class="flex gap-5 items-center p-5">
+              <img src="images/testimonial-4.jpg" alt="" class="!w-[70px]">
+              <div class="">
+                <h1 class="text-xl font-semibold">CLIENT NAME</h1>
+                <p>Profession</p>
+              </div>
+            </div>
+            <p class="w-full p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus
+              reiciendis
+              sed harum aperiam
+              illum tempora dolorum quisquam numquam</p>
+          </span>
+        </div>
 
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="footer container-fuild mt-24">
+    <div class="container-auto flex gap-7">
+      <div class="footer-logo w-full">
+        <div class="footer-logo-border">
+          <h2 class="text-center text-3xl"><i class="fa-solid fa-cake-candles"></i> <span
+              class="font-semibold">CAKEZONE</span></h2>
+          <p class="mt-5">Lorem diam sit erat dolor elitr et, diam lorem justo labore amet clita labore stet eos magna
+            sit. Elitr
+            dolor eirmod duo tempor lorem, elitr clita ipsum sea. Nonumy rebum et takimata ea takimata amet gubergren,
+            erat rebum magna lorem stet eos. Diam amet et kasd eos duo dolore no.</p>
+        </div>
+      </div>
+      <div class="footer-touch w-full">
+        <h2>GET IN TOUCH</h2>
+        <ul class="mt-2">
+          <li><span><i class="fa-solid fa-location-dot"></i></span>
+            123 Street, New York, USA</li>
+          <li><span><i class="fa-regular fa-envelope-open"></span></i>info@example.com</li>
+          <li><span><i class="fa-solid fa-phone"></i></span>+012 345 67890</li>
+        </ul>
+        <div class="footer-contact flex gap-3 mt-5">
+          <span><i class="fa-brands fa-twitter"></i></span>
+          <span><i class="fa-brands fa-facebook"></i></span>
+          <span><i class="fa-brands fa-linkedin-in"></i></span>
+        </div>
+      </div>
+      <div class="footer-links w-full">
+        <h2>QUICK LINKS</h2>
+        <ul>
+          <li><span><i class="fa-solid fa-arrow-right-long"></i></span>Home</li>
+          <li><span><i class="fa-solid fa-arrow-right-long"></i></span>About Us</li>
+          <li><span><i class="fa-solid fa-arrow-right-long"></i></span>Our Services</li>
+          <li><span><i class="fa-solid fa-arrow-right-long"></i></span>Meet The Team</li>
+          <li><span><i class="fa-solid fa-arrow-right-long"></i></span>Latest Blog</li>
+          <li><span><i class="fa-solid fa-arrow-right-long"></i></span>Contact Us</li>
+        </ul>
+      </div>
+      <div class="footer-newsletter w-full">
+        <h2>NEWSLETTER</h2>
+        <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
+        <form action="#">
+          <div class="footer-input">
+            <input type="email" required placeholder="Your Email">
+            <button>Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="copy-text">
+      <p class="text-center text-base">© Your Site Name. All Rights Reserved. Designed by <span
+          class="underline">Dhanushka
+          Rathnayaka</span></p>
+    </div>
+  </div>
   <!--Link To JS File  -->
   <script src="Js/script.js"></script>
-  <!-- Link To JQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
 </body>
 
 </html>
